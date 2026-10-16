@@ -10,6 +10,7 @@
 export type SocialPlatform =
   | "github"
   | "linkedin"
+  | "leetcode"
   | "email"
   | "phone"
   | "resume";

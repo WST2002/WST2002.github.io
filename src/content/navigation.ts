@@ -25,6 +25,12 @@ export const socialLinks: SocialLink[] = [
     external: true,
   },
   {
+    platform: "leetcode",
+    label: "LeetCode",
+    href: "https://leetcode.com/u/Wagee_ST2002/",
+    external: true,
+  },
+  {
     platform: "email",
     label: "Email",
     href: `mailto:${profile.email}`,

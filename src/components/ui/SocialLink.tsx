@@ -4,6 +4,7 @@ import { cn } from "@/lib/utils";
 import {
   DownloadIcon,
   GitHubIcon,
+  LeetCodeIcon,
   LinkedInIcon,
   MailIcon,
   PhoneIcon,
@@ -12,6 +13,7 @@ import {
 const iconByPlatform: Record<SocialPlatform, ComponentType<SVGProps<SVGSVGElement>>> = {
   github: GitHubIcon,
   linkedin: LinkedInIcon,
+  leetcode: LeetCodeIcon,
   email: MailIcon,
   phone: PhoneIcon,
   resume: DownloadIcon,
