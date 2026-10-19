@@ -20,7 +20,7 @@ export const experience: ExperienceItem[] = [
     role: "Software Developer",
     company: "Sprillio Tech",
     achievements: [
-      "Built The Vedic Puja — a full-stack booking platform (Next.js, Spring Boot, MySQL).",
+      "Built The Vedic Puja — a booking platform with a Next.js frontend and Spring Boot + MySQL backend.",
       "Developed an immersive 3D web kiosk with Three.js raycasting & animations.",
       "Contributed to a Forbes Top-50 charity site on WordPress with 38+ integrated plugins.",
     ],

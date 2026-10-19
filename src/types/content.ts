@@ -73,7 +73,7 @@ export interface FeaturedProject {
 /** A compact, secondary project card. */
 export interface MiniProject {
   id: string;
-  /** Ordinal + category label, e.g. "01 — Full-stack platform". */
+  /** Ordinal + category label, e.g. "01 — Web platform". */
   kicker: string;
   title: string;
   description: string;

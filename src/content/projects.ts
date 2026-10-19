@@ -80,7 +80,7 @@ export const featuredProjects: FeaturedProject[] = [
 export const miniProjects: MiniProject[] = [
   {
     id: "vedic-puja",
-    kicker: "01 — Full-stack platform",
+    kicker: "01 — Web platform",
     title: "The Vedic Puja",
     description:
       "Online platform for puja bookings, astrology services & temple directories. JWT auth + RBAC, Spring Mail confirmations, deployed on GCP.",
