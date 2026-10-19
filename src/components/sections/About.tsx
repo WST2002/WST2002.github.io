@@ -49,15 +49,18 @@ export function About() {
                 return (
                   <div
                     key={fact.label}
-                    className="flex items-center gap-3.5 border-b border-line py-3.5 last:border-b-0"
+                    className="relative flex min-h-[64px] flex-col justify-center border-b border-line py-3.5 pl-[50px] last:border-b-0"
                   >
-                    <span className="grid h-9 w-9 flex-none place-items-center rounded-[10px] bg-surface-2 text-accent [&>svg]:h-[17px] [&>svg]:w-[17px]">
-                      <Icon />
-                    </span>
-                    <div>
-                      <dt className="text-[0.78rem] text-fg-mute">{fact.label}</dt>
-                      <dd className="text-[0.96rem] font-semibold">{fact.value}</dd>
-                    </div>
+                    <dt className="text-[0.78rem] text-fg-mute">
+                      <span
+                        aria-hidden="true"
+                        className="absolute left-0 top-1/2 grid h-9 w-9 -translate-y-1/2 place-items-center rounded-[10px] bg-surface-2 text-accent [&>svg]:h-[17px] [&>svg]:w-[17px]"
+                      >
+                        <Icon />
+                      </span>
+                      {fact.label}
+                    </dt>
+                    <dd className="text-[0.96rem] font-semibold">{fact.value}</dd>
                   </div>
                 );
               })}

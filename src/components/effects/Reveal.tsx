@@ -6,6 +6,8 @@ interface RevealProps {
   /** Retained for API compatibility; ordering is now handled by CSS. */
   delay?: 1 | 2 | 3 | 4;
   className?: string;
+  /** Render as a list item when the reveal sits directly inside a list. */
+  as?: "div" | "li";
 }
 
 /**
@@ -16,10 +18,10 @@ interface RevealProps {
  * supported. No JavaScript — so content always shows even if the client
  * never hydrates.
  */
-export function Reveal({ children, delay, className }: RevealProps) {
+export function Reveal({ children, delay, className, as: Tag = "div" }: RevealProps) {
   return (
-    <div data-delay={delay} className={cn("reveal", className)}>
+    <Tag data-delay={delay} className={cn("reveal", className)}>
       {children}
-    </div>
+    </Tag>
   );
 }
