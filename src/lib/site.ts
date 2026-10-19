@@ -14,11 +14,12 @@ export const siteConfig = {
   name: profile.name,
   title: `${profile.name} — ${profile.role}`,
   description:
-    "Wageesha Tripathi — Full-Stack Developer at Primebook India. Building immersive, performance-driven web experiences with React, Next.js, Three.js and Spring Boot.",
+    "Wageesha Tripathi — Software Engineer at Primebook India. Building immersive, performance-driven web experiences with React, Next.js, Three.js and Spring Boot.",
   url: siteUrl,
   locale: "en_US",
   keywords: [
     "Wageesha Tripathi",
+    "Software Engineer",
     "Full-Stack Developer",
     "Frontend Developer",
     "React Developer",
