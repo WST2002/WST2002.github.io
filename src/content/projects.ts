@@ -3,6 +3,24 @@ import type { FeaturedProject, MiniProject } from "@/types/content";
 /** Full-width, headline case studies. */
 export const featuredProjects: FeaturedProject[] = [
   {
+    id: "claude-code-skills",
+    glyph: "C",
+    title: "Claude Code Skills & Plugins — Open Source",
+    role: "Creator · open source",
+    url: "wst2002.github.io/claude-code-skills",
+    brand: "Claude Code Skills",
+    description:
+      "27 free skills and 2 plugins that make AI coding agents reliable — code review, security audit, Figma design compare, QA test cases, and /fix-issue from ticket to tested pull request. Install with one command.",
+    tags: ["Claude Code", "Node.js", "Agent Skills", "Hooks", "Open Source"],
+    highlights: [
+      "proof-of-done plugin blocks the agent from saying \"done\" until tests, lint and build pass — a shell parser catches failures hidden behind pipes.",
+      "issue-to-pr plugin: /fix-issue takes a GitHub issue or Jira ticket to a failing test, a fix and a draft pull request.",
+      "27 skills across code quality, QA, security, design and DevOps, each with a fixed method and output format.",
+    ],
+    link: { label: "Website", href: "https://wst2002.github.io/claude-code-skills/" },
+    accent: { from: "#d97757", to: "#f2b38f" },
+  },
+  {
     id: "primebook",
     glyph: "P",
     title: "Primebook — Marketing & Product Website",
