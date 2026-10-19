@@ -60,14 +60,13 @@ export function Hero() {
           <Reveal delay={4}>
             <dl className="mt-16 flex flex-wrap gap-9 max-[600px]:mt-12 max-[600px]:gap-6">
               {stats.map((stat) => (
-                <div key={stat.label}>
-                  <dt className="sr-only">{stat.label}</dt>
+                <div key={stat.label} className="flex flex-col-reverse">
+                  <dt className="mt-0.5 font-mono text-[0.82rem] tracking-[0.04em] text-fg-mute">
+                    {stat.label}
+                  </dt>
                   <dd className="font-display text-[clamp(1.6rem,3vw,2.3rem)] font-bold tracking-[-0.02em]">
                     <GradientText>{stat.value}</GradientText>
                   </dd>
-                  <p className="mt-0.5 font-mono text-[0.82rem] tracking-[0.04em] text-fg-mute">
-                    {stat.label}
-                  </p>
                 </div>
               ))}
             </dl>
