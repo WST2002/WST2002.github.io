@@ -8,12 +8,14 @@ import {
   LinkedInIcon,
   MailIcon,
   PhoneIcon,
+  YouTubeIcon,
 } from "./icons";
 
 const iconByPlatform: Record<SocialPlatform, ComponentType<SVGProps<SVGSVGElement>>> = {
   github: GitHubIcon,
   linkedin: LinkedInIcon,
   leetcode: LeetCodeIcon,
+  youtube: YouTubeIcon,
   email: MailIcon,
   phone: PhoneIcon,
   resume: DownloadIcon,

@@ -11,6 +11,7 @@ export type SocialPlatform =
   | "github"
   | "linkedin"
   | "leetcode"
+  | "youtube"
   | "email"
   | "phone"
   | "resume";
