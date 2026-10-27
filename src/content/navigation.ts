@@ -31,6 +31,12 @@ export const socialLinks: SocialLink[] = [
     external: true,
   },
   {
+    platform: "youtube",
+    label: "YouTube",
+    href: "https://www.youtube.com/@wst2002rk",
+    external: true,
+  },
+  {
     platform: "email",
     label: "Email",
     href: `mailto:${profile.email}`,
