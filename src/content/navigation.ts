@@ -37,6 +37,30 @@ export const socialLinks: SocialLink[] = [
     external: true,
   },
   {
+    platform: "devto",
+    label: "dev.to",
+    href: "https://dev.to/wst2002rk",
+    external: true,
+  },
+  {
+    platform: "hashnode",
+    label: "Hashnode",
+    href: "https://wst2002rk.hashnode.dev",
+    external: true,
+  },
+  {
+    platform: "npm",
+    label: "npm",
+    href: "https://www.npmjs.com/~wstrk2002",
+    external: true,
+  },
+  {
+    platform: "pinterest",
+    label: "Pinterest",
+    href: "https://www.pinterest.com/wst2002rk/",
+    external: true,
+  },
+  {
     platform: "email",
     label: "Email",
     href: `mailto:${profile.email}`,
