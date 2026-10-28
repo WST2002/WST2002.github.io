@@ -49,7 +49,7 @@ export function Contact() {
         </Reveal>
 
         <Reveal delay={3}>
-          <div className="mt-12 flex justify-center gap-3">
+          <div className="mt-12 flex flex-wrap justify-center gap-3">
             {socialLinks.map((link) => (
               <SocialLink key={link.platform} link={link} />
             ))}

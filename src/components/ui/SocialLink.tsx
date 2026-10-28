@@ -2,12 +2,16 @@ import type { ComponentType, SVGProps } from "react";
 import type { SocialLink as SocialLinkData, SocialPlatform } from "@/types/content";
 import { cn } from "@/lib/utils";
 import {
+  DevToIcon,
   DownloadIcon,
   GitHubIcon,
+  HashnodeIcon,
   LeetCodeIcon,
   LinkedInIcon,
   MailIcon,
+  NpmIcon,
   PhoneIcon,
+  PinterestIcon,
   YouTubeIcon,
 } from "./icons";
 
@@ -16,6 +20,10 @@ const iconByPlatform: Record<SocialPlatform, ComponentType<SVGProps<SVGSVGElemen
   linkedin: LinkedInIcon,
   leetcode: LeetCodeIcon,
   youtube: YouTubeIcon,
+  devto: DevToIcon,
+  hashnode: HashnodeIcon,
+  npm: NpmIcon,
+  pinterest: PinterestIcon,
   email: MailIcon,
   phone: PhoneIcon,
   resume: DownloadIcon,
