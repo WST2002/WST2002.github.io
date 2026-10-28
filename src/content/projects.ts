@@ -10,15 +10,33 @@ export const featuredProjects: FeaturedProject[] = [
     url: "wst2002.github.io/claude-code-skills",
     brand: "Claude Code Skills",
     description:
-      "27 free skills and 2 plugins that make AI coding agents reliable — code review, security audit, Figma design compare, QA test cases, and /fix-issue from ticket to tested pull request. Install with one command.",
+      "31 free skills and 2 plugins that make AI coding agents reliable — code review, security audit, Figma design compare, QA test cases, and /fix-issue from ticket to tested pull request. Install with one command.",
     tags: ["Claude Code", "Node.js", "Agent Skills", "Hooks", "Open Source"],
     highlights: [
       "proof-of-done plugin blocks the agent from saying \"done\" until tests, lint and build pass — a shell parser catches failures hidden behind pipes.",
       "issue-to-pr plugin: /fix-issue takes a GitHub issue or Jira ticket to a failing test, a fix and a draft pull request.",
-      "27 skills across code quality, QA, security, design and DevOps, each with a fixed method and output format.",
+      "31 skills across code quality, QA, security, design and DevOps, each with a fixed method and output format.",
     ],
     link: { label: "Website", href: "https://wst2002.github.io/claude-code-skills/" },
     accent: { from: "#d97757", to: "#f2b38f" },
+  },
+  {
+    id: "which-ai-to-use",
+    glyph: "W",
+    title: "which-ai-to-use — Switch AIs Without Losing Context",
+    role: "Creator · open source",
+    url: "npmjs.com/package/which-ai-to-use",
+    brand: "which-ai-to-use",
+    description:
+      "A free CLI, VS Code extension and local dashboard for developers who use several AI coding tools. When Claude's limit runs out mid-task, it reads the chat, writes HANDOFF.md and hands the task to another AI, so nobody re-explains anything.",
+    tags: ["Node.js", "CLI", "VS Code Extension", "Claude Code", "Open Source"],
+    highlights: [
+      "Handoff reads the Claude Code, Codex or Gemini CLI chat and writes a short HANDOFF.md the next AI reads first: task, latest requests, where it stopped, changed files.",
+      "Checkup finds heavy files your AI keeps reading, one command makes every installed AI skip them, and a setup score out of 100 shows the result.",
+      "Warns before Claude's 5-hour limit runs out at the current pace, and picks the best AI and model for each task.",
+    ],
+    link: { label: "npm", href: "https://www.npmjs.com/package/which-ai-to-use" },
+    accent: { from: "#f59e0b", to: "#fb7185" },
   },
   {
     id: "primebook",
