@@ -15,6 +15,7 @@ export type SocialPlatform =
   | "hashnode"
   | "npm"
   | "pinterest"
+  | "peerlist"
   | "youtube"
   | "email"
   | "phone"
