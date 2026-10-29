@@ -61,6 +61,12 @@ export const socialLinks: SocialLink[] = [
     external: true,
   },
   {
+    platform: "peerlist",
+    label: "Peerlist",
+    href: "https://peerlist.io/wst2002rk",
+    external: true,
+  },
+  {
     platform: "email",
     label: "Email",
     href: `mailto:${profile.email}`,
