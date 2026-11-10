@@ -50,6 +50,7 @@ export const skillGroups: SkillGroup[] = [
       "Sanity CMS",
       "Postman",
       "WordPress",
+      "Shopify",
       "Figma",
     ],
   },
