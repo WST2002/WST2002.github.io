@@ -25,6 +25,8 @@ export const siteConfig = {
     "React Developer",
     "Next.js",
     "Three.js",
+    "WordPress",
+    "Shopify",
     "Portfolio",
     "Primebook",
   ],
