@@ -39,6 +39,24 @@ export const featuredProjects: FeaturedProject[] = [
     accent: { from: "#f59e0b", to: "#fb7185" },
   },
   {
+    id: "proof-of-done-jira",
+    glyph: "J",
+    title: "Proof of Done for Jira — Done Only When the Tests Still Prove It",
+    role: "Creator · Atlassian Codegeist 2026",
+    url: "github.com/WST2002/proof-of-done-jira",
+    brand: "Proof of Done for Jira",
+    description:
+      "A free, open-source Atlassian Forge app. Before a Jira work item can move to Done, it reads the GitHub or Bitbucket pull requests behind it and blocks the move if a test was skipped, deleted or loosened to turn CI green.",
+    tags: ["Atlassian Forge", "Jira", "Rovo", "MCP", "Bitbucket"],
+    highlights: [
+      "Shows the exact file, line and assertion before and after, plus a commit timeline that marks where CI turned green after a test was weakened.",
+      "Rovo agent and MCP tools let people and AI agents ask \"is this really done?\" with Jira permissions applied; a Bitbucket merge check runs the same rules before merge.",
+      "Benchmark of 113 diffs: all 66 test shortcuts caught, none of the 47 honest changes flagged; none of 100 real merged pull requests blocked.",
+    ],
+    link: { label: "Demo video", href: "https://youtu.be/1SK-aSDd0xo" },
+    accent: { from: "#2684ff", to: "#36b37e" },
+  },
+  {
     id: "primebook",
     glyph: "P",
     title: "Primebook — Marketing & Product Website",
